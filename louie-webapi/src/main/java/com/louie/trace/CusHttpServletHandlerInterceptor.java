@@ -6,6 +6,7 @@ import java.net.URISyntaxException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import com.github.kristofa.brave.Brave;
@@ -24,6 +25,7 @@ import zipkin.reporter.Reporter;
 import zipkin.reporter.Sender;
 import zipkin.reporter.okhttp3.OkHttpSender;
 
+@Component
 public class CusHttpServletHandlerInterceptor  extends HandlerInterceptorAdapter {
 
 

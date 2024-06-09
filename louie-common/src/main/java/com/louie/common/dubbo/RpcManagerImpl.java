@@ -4,6 +4,7 @@ import com.louie.core.CallResult;
 import com.louie.core.Service;
 import com.louie.core.ServiceDispacher;
 import com.louie.core.ServiceDispacherImpl;
+import org.apache.dubbo.config.annotation.DubboService;
 
 public class RpcManagerImpl implements RpcManager{
 	
